@@ -1,0 +1,6 @@
+{
+  "name": "UK Highway Code B1 Mock Test",
+  "description": "A UK Highway Code mock test with simplified B1 English explanations, clickable vocabulary words, text-to-speech, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

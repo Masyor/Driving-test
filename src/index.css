@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Teachers", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Teachers", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Teachers", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Teachers", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-editorial-bg: #F8F9FA;
+  --color-editorial-border: #E4E5E6;
+  --color-editorial-accent: #2563EB;
+  --color-editorial-accent-light: #EFF6FF;
+  --color-editorial-charcoal: #1F2937;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-editorial-bg);
+  color: var(--color-editorial-charcoal);
+}
